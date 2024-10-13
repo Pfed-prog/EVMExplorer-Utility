@@ -52,25 +52,17 @@ const networkIds: Record<string, number> = {
 };
 
 export function getNetworkNameTitle(chainId: number): string {
-  const networkName = networkNameTitles[chainId];
-  if (networkName) return networkName;
-  throw new Error('wrong chainId provided');
+  return networkNameTitles[chainId] || 'Ethereum';
 }
 
 export function getNetworkName(chainId: number): ChainType {
-  const networkName = networkNames[chainId];
-  if (networkName) return networkName;
-  throw new Error('wrong chainId provided');
+  return networkNames[chainId] || 'mainnet';
 }
 
 export function getNetworkNameUniswap(chainId: number): string {
-  const networkName = networkNameUniswap[chainId];
-  if (networkName) return networkName;
-  throw new Error('wrong chainId provided');
+  return networkNameUniswap[chainId] || 'ethereum';
 }
 
 export function getNetworkId(chainId: string): number {
-  const networkName = networkIds[chainId];
-  if (networkName) return networkName;
-  throw new Error('wrong chainId provided');
+  return networkIds[chainId] || 1;
 }
