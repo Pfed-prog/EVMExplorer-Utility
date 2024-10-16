@@ -18,5 +18,4 @@ export {
   parseTokenWithER,
   parseTokenPrice,
 } from './parseNumbers';
-export { parseTxTypes } from './parseTypes';
 export { delay, parseTimestampToMinutesAgo } from './time';

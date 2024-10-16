@@ -1,6 +1,6 @@
 {
   "name": "@evmexplorer/utility",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "EVMExplorer utility sdk",
   "main": "dist/index.js",
   "homepage": "https://github.com/Pfed-prog/EVMExplorer-utilities",
@@ -18,10 +18,13 @@
     "blockscout",
     "eth",
     "ethereum",
+    "optimism",
     "utilities",
     "web3",
     "typescript",
-    "types"
+    "types",
+    "viem",
+    "uniswap"
   ],
   "author": "Pavel Fedotov",
   "license": "MIT",
