@@ -51,18 +51,18 @@ const networkIds: Record<string, number> = {
   zora: 7777777,
 };
 
-export function getNetworkNameTitle(chainId: number): string {
-  return networkNameTitles[chainId] || 'Ethereum';
+export function getNetworkNameTitle(chainId: number) {
+  return networkNameTitles[chainId];
 }
 
-export function getNetworkName(chainId: number): ChainType {
-  return networkNames[chainId] || 'mainnet';
+export function getNetworkName(chainId: number) {
+  return networkNames[chainId];
 }
 
-export function getNetworkNameUniswap(chainId: number): string {
-  return networkNameUniswap[chainId] || 'ethereum';
+export function getNetworkNameUniswap(chainId: number) {
+  return networkNameUniswap[chainId];
 }
 
-export function getNetworkId(chainId: string): number {
-  return networkIds[chainId] || 1;
+export function getNetworkId(chainId: string) {
+  return networkIds[chainId];
 }
