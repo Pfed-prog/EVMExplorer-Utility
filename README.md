@@ -1,6 +1,6 @@
 # EVMExplorer-Utilities
 
-[EVM Explorer](evmexplorer.com) typescript utility sdk.
+[EVM Explorer](evmexplorer.com) TypeScript utility sdk.
 
 ## 📚 Install
 

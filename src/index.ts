@@ -5,6 +5,7 @@ export {
   getNetworkName,
   getNetworkNameUniswap,
   getNetworkId,
+  getNativeCurrency,
 } from './networks';
 export { camelToFlat, parseCamelCase, parseStringToWords } from './parseNames';
 export {

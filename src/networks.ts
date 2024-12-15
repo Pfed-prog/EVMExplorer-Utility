@@ -66,3 +66,9 @@ export function getNetworkNameUniswap(chainId: number) {
 export function getNetworkId(chainId: string) {
   return networkIds[chainId];
 }
+
+export function getNativeCurrency(chainId?: number) {
+  if (chainId === 137) return 'MATIC';
+  if (chainId === 314) return 'FIL';
+  return 'ETH';
+}
