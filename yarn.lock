@@ -2025,9 +2025,9 @@ validate-npm-package-name@^5.0.0:
   integrity sha512-OljLrQ9SQdOUqTaQxqL5dEfZWrXExyyWsozYlAWFawPVNuD83igl7uJD2RTkNMbniIYgt8l81eCJGIdQF7avLQ==
 
 viem@^2.21.24:
-  version "2.38.0"
-  resolved "https://registry.yarnpkg.com/viem/-/viem-2.38.0.tgz#48f9f91f6d540c83e9eb9f6d62ecb8e648517ca6"
-  integrity sha512-YU5TG8dgBNeYPrCMww0u9/JVeq2ZCk9fzk6QybrPkBooFysamHXL1zC3ua10aLPt9iWoA/gSVf1D9w7nc5B1aA==
+  version "2.38.2"
+  resolved "https://registry.yarnpkg.com/viem/-/viem-2.38.2.tgz#55d7c2f44b52cfbafa822f24aa796cc2ac5afd78"
+  integrity sha512-MJDiTDD9gfOT7lPQRimdmw+g46hU/aWJ3loqb+tN6UBOO00XEd0O4LJx+Kp5/uCRnMlJr8zJ1bNzCK7eG6gMjg==
   dependencies:
     "@noble/curves" "1.9.1"
     "@noble/hashes" "1.8.0"
